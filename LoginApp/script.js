@@ -26,5 +26,6 @@ document.getElementById("loginForm").addEventListener("submit", async function (
     } catch (error) {
         console.error("Erro:", error);
         alert("Erro de conexão com o servidor.");
+   
     }
 });
